@@ -16,12 +16,12 @@ $main_menus = [
     'url' => 'index.php?p=libinfo'
   ],
   'admin' => [
-    'text' => __('Admin'),
-    'url' => 'index.php?p=login'
+    'text' => __('Pengunjung'),
+    'url' => 'index.php?p=visitor'
   ],
   'librarian' => [
-    'text' => __('Librarian'),
-    'url' => 'index.php?p=librarian'
+    'text' => __('Admin'),
+    'url' => 'index.php?p=login'
   ]
 ];
 ?>
