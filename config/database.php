@@ -29,7 +29,7 @@ return [
             'database' => 'slims9',
             'port' => 3306,
             'username' => 'root',
-            'password' => 'Passwordnya123*',
+            'password' => '',
             'options' => [
                 'storage_engine' => 'MyISAM'
             ]

@@ -277,12 +277,12 @@ $sysconf['login_message'] = false;
 $sysconf['logout_message'] = false;
 
 /* FILE UPLOADS */
-$sysconf['max_upload'] = intval(ini_get('upload_max_filesize'))*1024;
-$post_max_size = intval(ini_get('post_max_size'))*1024;
+$sysconf['max_upload'] = intval(ini_get('upload_max_filesize'))*2024;
+$post_max_size = intval(ini_get('post_max_size'))*2024;
 if ($sysconf['max_upload'] > $post_max_size) {
-    $sysconf['max_upload'] = $post_max_size-1024;
+    $sysconf['max_upload'] = $post_max_size-2024;
 }
-$sysconf['max_image_upload'] = 500;
+$sysconf['max_image_upload'] = 10000;
 // allowed image file to upload
 $sysconf['allowed_images'] = array('.jpeg', '.jpg', '.gif', '.png', '.JPEG', '.JPG', '.GIF', '.PNG');
 // allowed file attachment to upload
