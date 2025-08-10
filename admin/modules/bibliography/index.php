@@ -628,12 +628,12 @@ if (!$in_pop_up) {
                          aria-expanded="false"><?php echo __('Advanced Filter'); ?></div>
                     <div class="collapse" id="advancedFilter"
                          style="padding-top:10px;width:100%; text-align:left !important;">
-                        <?php echo __('Hide in OPAC'); ?>&nbsp;
+                        <!-- <php echo __('Hide in OPAC'); ?>&nbsp;
                         <select name="opac_hide" class="form-control col-md-2">
-                            <option value=""><?php echo __('ALL'); ?></option>
-                            <option value="0"><?php echo __('Show'); ?> </option>
-                            <option value="1"><?php echo __('Hide'); ?></option>
-                        </select>
+                            <option value=""><php echo __('ALL'); ?></option>
+                            <option value="0"><php echo __('Show'); ?> </option>
+                            <option value="1"><php echo __('Hide'); ?></option>
+                        </select> -->
                         <?php echo __('Promote To Homepage'); ?>&nbsp;
                         <select name="promoted" class="form-control col-md-2">
                             <option value=""><?php echo __('ALL'); ?></option>
