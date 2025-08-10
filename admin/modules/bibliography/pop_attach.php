@@ -284,6 +284,25 @@ $form->addCheckBox('accLimit', __('Access Limit by Member Type'), $group_options
 <?php
 // print out the object
 echo $form->printOut();
+// loading screen for upload file
+echo '<div id="loading-overlay" style="
+    display:none;
+    position:fixed;
+    top:0;left:0;width:100%;height:100%;
+    background:rgba(255,255,255,0.7);
+    z-index:9999;
+    text-align:center;
+    font-size:20px;
+    padding-top:200px;
+">
+    ⏳ Sedang mengunggah file...
+</div>';
+echo '<script>
+    document.querySelector("form").addEventListener("submit", function() {
+        document.getElementById("loading-overlay").style.display = "block";
+    });
+</script>';
+
 ?>
 <br>
 <script type="text/javascript">

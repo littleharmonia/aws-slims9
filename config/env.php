@@ -4,7 +4,7 @@
  * - development : all errors will appear
  * - production : silent error
  */
-$env = 'development';
+$env = 'production';
 
 /**
  * Environment mode if
