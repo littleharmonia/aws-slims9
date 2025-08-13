@@ -20,42 +20,42 @@
             <div class="modal-body">
                 <ul class="topic d-flex flex-wrap justify-content-center p-0">
                     <li class="d-flex justify-content-center align-items-center m-2">
-                        <a href="index.php?callnumber=0&search=search" class="d-flex flex-column">
+                        <a href="index.php?callnumber=TIK&search=search" class="d-flex flex-column">
                             <img src="<?=  assets('images/0-chemical.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <?=  __('Computer Science, Information & General Works'); ?>
+                            <?=  __('Komputer dan Teknologi'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
-                        <a href="index.php?callnumber=1&search=search" class="d-flex flex-column">
-                            <img src="<?=  assets('images/1-memory.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <?=  __('Philosophy & Psychology'); ?>
+                        <a href="index.php?callnumber=PPKN&search=search" class="d-flex flex-column">
+                            <img src="<?=  assets('images/custom_logo/PPKN.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                            <?=  __('Pendidikan Pancasila & Kewarganegaraan'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
-                        <a href="index.php?callnumber=2&search=search" class="d-flex flex-column">
-                            <img src="<?=  assets('images/2-mosque.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <?=  __('Religion'); ?>
+                        <a href="index.php?callnumber=MTK&search=search" class="d-flex flex-column">
+                            <img src="<?=  assets('images/custom_logo/calculator.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                            <?=  __('Matematika'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
-                        <a href="index.php?callnumber=3&search=search" class="d-flex flex-column">
-                            <img src="<?=  assets('images/3-diploma.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <?=  __('Social Sciences'); ?>
+                        <a href="index.php?callnumber=HDS&search=search" class="d-flex flex-column">
+                            <img src="<?=  assets('images/custom_logo/hadist.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                            <?=  __('Hadits'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
-                        <a href="index.php?callnumber=4&search=search" class="d-flex flex-column">
-                            <img src="<?=  assets('images/4-translation.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <?=  __('Language'); ?>
+                        <a href="index.php?callnumber=ARB&search=search" class="d-flex flex-column">
+                            <img src="<?=  assets('images/custom_logo/arabic.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                            <?=  __('Bahasa Arab'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
-                        <a href="index.php?callnumber=5&search=search" class="d-flex flex-column">
-                            <img src="<?=  assets('images/5-math.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <?=  __('Pure Science'); ?>
+                        <a href="index.php?callnumber=SBK&search=search" class="d-flex flex-column">
+                            <img src="<?=  assets('images/custom_logo/teamwork.png'); ?>" width="80" class="mb-3 mx-auto"/>
+                            <?=  __('Seni Budaya'); ?>
                         </a>
                     </li>
-                    <li class="d-flex justify-content-center align-items-center m-2">
+                    <!-- <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=6&search=search" class="d-flex flex-column">
                             <img src="<?=  assets('images/6-blackboard.png'); ?>" width="80" class="mb-3 mx-auto"/>
                             <?=  __('Applied Sciences'); ?>
@@ -78,11 +78,11 @@
                             <img src="<?=  assets('images/9-return-to-the-past.png'); ?>" width="80" class="mb-3 mx-auto"/>
                             <?=  __('History & Geography'); ?>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="modal-footer text-muted text-sm">
-                <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
         </div>
     </div>

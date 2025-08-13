@@ -123,5 +123,7 @@ include LIB . "contents/chat.php"; ?>
         })
     </script>
 <?php endif; ?>
+</script>
+
 </body>
 </html>
